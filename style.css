@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+}
+
+.navigation {
+  padding-bottom: 20px;
+}
+.navbar ul {
+  list-style-type: none;
+  width: 500px;
+  height: 24px;
+  margin-left: 70%;
+  margin-top: 30px;
+}
+section {
+  height: 500px;
+  margin-bottom: 30px;
+}
+.navbar ul li {
+  display: inline;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3c3c3c;
+  padding: 10px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #3c3c3c;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-top: 60px;
+  margin-left: 5%;
+  padding-left: 50px;
+}
+.half-width img {
+  width: 80%;
+}
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+  font-family: Bebas Neue;
+  margin: 0;
+}
+h3 {
+  font-family: Bebas Neue;
+  font-size: 48px;
+  font-weight: 700;
+}
+p {
+  width: 50%;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+#colored-text {
+  color: #ff8367;
+}
+
+.projects {
+  margin-top: 20%;
+  background-color: #365391a4;
+  text-align: center;
+  height: 700px;
+}
+.projects h3 {
+  padding-top: 120px;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.card {
+  height: 380px;
+  width: 380px;
+  background-color: white;
+}
+.card h6 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.card img {
+  width: 100%;
+}
