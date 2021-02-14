@@ -1,287 +1,318 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
 body {
-  margin: 0;
+    margin: 0;
 }
 
 .navigation {
-  padding-bottom: 20px;
+    padding-bottom: 20px;
 }
+
 .navbar ul {
-  list-style-type: none;
-  width: 500px;
-  height: 24px;
-  margin-left: 65%;
-  margin-top: 30px;
+    list-style-type: none;
+    width: 500px;
+    height: 24px;
+    margin-left: 65%;
+    margin-top: 30px;
 }
+
 section {
-  height: 500px;
-  margin-bottom: 30px;
+    height: 500px;
+    margin-bottom: 30px;
 }
+
 .navbar ul li {
-  display: inline;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #3c3c3c;
-  padding: 10px;
+    display: inline;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3c3c3c;
+    padding: 10px;
 }
+
 .navbar ul li a {
-  text-decoration: none;
-  color: #3c3c3c;
+    text-decoration: none;
+    color: #3c3c3c;
 }
 
 .link-button {
-  text-decoration: none;
-  color: white;
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  padding: 15px 25px;
-  background-image: linear-gradient(180deg, #f6380db4, #ee9405);
-  border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 15px 25px;
+    background-image: linear-gradient(180deg, #f6380db4, #ee9405);
+    border-radius: 6px;
 }
 
 .link-button:hover {
-  background-image: linear-gradient(180deg, #0de7a6, #1386c8);
+    background-image: linear-gradient(180deg, #0de7a6, #1386c8);
 }
+
 #download-icon {
-  position: relative;
-  height: 20px;
-  width: 20px;
-  padding-right: 10px;
-  top: 5px;
+    position: relative;
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;
+    top: 5px;
 }
+
 .half-width {
-  width: 40%;
-  float: left;
-  margin-top: 60px;
-  margin-left: 5%;
-  padding-left: 50px;
+    width: 40%;
+    float: left;
+    margin-top: 60px;
+    margin-left: 5%;
+    padding-left: 50px;
 }
+
 .half-width img {
-  width: 80%;
+    width: 80%;
 }
+
 h1 {
-  font-size: 80px;
-  font-weight: 700;
-  font-family: Bebas Neue;
-  margin: 0;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: Bebas Neue;
+    margin: 0;
 }
+
 h3 {
-  font-family: Bebas Neue;
-  font-size: 48px;
-  font-weight: 700;
+    font-family: Bebas Neue;
+    font-size: 48px;
+    font-weight: 700;
 }
+
 .intro p {
-  width: 50%;
-  font-family: Roboto;
-  font-size: 16px;
-  padding: 0;
-  line-height: 24px;
-  font-weight: 400;
+    width: 50%;
+    font-family: Roboto;
+    font-size: 16px;
+    padding: 0;
+    line-height: 24px;
+    font-weight: 400;
 }
+
 #about-me p {
-  width: 50%;
-  font-family: Roboto;
-  font-size: 16px;
-  padding: 0;
-  line-height: 24px;
-  font-weight: 400;
+    width: 50%;
+    font-family: Roboto;
+    font-size: 16px;
+    padding: 0;
+    line-height: 24px;
+    font-weight: 400;
 }
+
 #colored-text {
-  color: #ff8367;
+    color: #ff8367;
 }
 
 .projects {
-  margin-top: 20%;
-  background-color: #e9ebee6b;
-  text-align: center;
-  height: 800px;
-  width: 100%;
+    margin-top: 20%;
+    background-color: #e9ebee6b;
+    text-align: center;
+    height: 800px;
+    width: 100%;
 }
+
 .projects h3 {
-  padding-top: 120px;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 48px;
+    padding-top: 120px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
 }
+
 .cards-container {
-  top: 30px;
-  margin: 20px auto;
-  height: 380px;
-  width: 80%;
-  padding-top: 100px;
-  padding-left: 5%;
+    top: 30px;
+    margin: 20px auto;
+    height: 380px;
+    width: 80%;
+    padding-top: 100px;
+    padding-left: 5%;
 }
+
 .cards-container .card {
-  float: left;
+    float: left;
 }
+
 .card {
-  display: block;
-  height: 380px;
-  width: 30%;
-  background-color: white;
-  border-radius: 19px;
-  box-shadow: 2px 2px 5px gray;
-  margin-right: 20px;
+    display: block;
+    height: 380px;
+    width: 30%;
+    background-color: white;
+    border-radius: 19px;
+    box-shadow: 2px 2px 5px gray;
+    margin-right: 20px;
 }
+
 .card h6 {
-  font-family: Roboto;
-  color: #363958;
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 700;
-  margin: 0;
+    font-family: Roboto;
+    color: #363958;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    margin: 0;
 }
+
 .card p {
-  width: 90%;
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 28px;
-  color: #6c6c6c;
+    width: 90%;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6c6c6c;
 }
+
 .card img {
-  width: 90%;
-  border-radius: 19px;
-  margin: 10px 5px;
+    width: 90%;
+    border-radius: 19px;
+    margin: 10px 5px;
 }
+
 .enquiry-section {
-  height: 300px;
+    height: 300px;
 }
+
 .enquiry {
-  background-image: url(images/Group_33094_1.png);
-  background-repeat: none repeat;
-  background-size: cover;
-  height: 225px;
-  width: 57%;
-  margin: 100px auto;
-  display: block;
+    background-image: url(images/Group_33094_1.png);
+    background-repeat: none repeat;
+    background-size: cover;
+    height: 225px;
+    width: 57%;
+    margin: 100px auto;
+    display: block;
 }
+
 .enquiry h1 {
-  width: 40%;
-  color: white;
-  font-family: Bebas Neue;
-  font-style: normal;
-  font-size: 64px;
-  line-height: 64px;
-  font-weight: 700;
-  padding-top: 85px;
-  padding-left: 75px;
+    width: 40%;
+    color: white;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 700;
+    padding-top: 85px;
+    padding-left: 75px;
 }
+
 .enquiry a {
-  position: relative;
-  float: right;
-  bottom: 63px;
-  right: 67px;
+    position: relative;
+    float: right;
+    bottom: 63px;
+    right: 67px;
 }
 
 .achievements {
-  height: 1200px;
-  background-image: url(images/achievemnets_bg.2jpg.jpeg);
-  background-size: cover;
+    height: 1320px;
+    background-image: url(images/achievemnets_bg.2jpg.jpeg);
+    background-size: cover;
 }
+
 .achievements div {
-  float: left;
+    float: left;
 }
+
 .achievements h2 {
-  font-family: Bebas Neue;
-  font-size: 48px;
-  color: #3c3c3c;
+    font-family: Bebas Neue;
+    font-size: 48px;
+    color: #3c3c3c;
 }
 
 .certificates {
-  margin: 5px 5px 20px 10px;
-  box-shadow: 2px 2px 5px gray;
-  width: 32%;
-  height: auto;
-  border-top: 10px solid;
-  border-image: linear-gradient(
-    90deg,
-    rgba(247, 6, 66, 0.37),
-    rgb(238, 138, 8)
-  );
-  border-image-slice: 1;
-  border-radius: 19px;
-  background-color: #fafafa;
+    margin: 5px 5px 20px 10px;
+    box-shadow: 2px 2px 5px gray;
+    width: 32%;
+    height: auto;
+    border-top: 10px solid;
+    border-image: linear-gradient( 90deg, rgba(247, 6, 66, 0.37), rgb(238, 138, 8));
+    border-image-slice: 1;
+    border-radius: 19px;
+    background-color: #fafafa;
 }
 
 .certificates img:hover {
-  transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .certificates img {
-  border-radius: 19px;
-  margin-left: 12px;
-  margin-bottom: 12px;
-  width: 95%;
-  transition: 0.2s ease;
+    border-radius: 19px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    width: 95%;
+    transition: 0.2s ease;
 }
+
 .certificates h4,
 p {
-  padding-left: 10px;
-  letter-spacing: 1.2px;
-  font-family: Bebas Neue;
+    padding-left: 10px;
+    letter-spacing: 1.2px;
+    font-family: Bebas Neue;
 }
+
 .certificates h4 {
-  font-size: 24px;
-  font-weight: 100;
+    font-size: 24px;
+    font-weight: 100;
 }
+
 .certificates p {
-  font-weight: 200;
-  line-height: 24px;
-  color: #3c3c3c;
+    font-weight: 200;
+    line-height: 24px;
+    color: #3c3c3c;
 }
 
 .contact {
-  text-align: center;
-  background-image: url(images/contatct.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
+    text-align: center;
+    background-image: url(images/contatct.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 .contact p {
-  text-align: center;
-  font-family: Roboto;
-  font-size: 20px;
-  margin: 50px auto;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    margin: 50px auto;
 }
+
 .stay-connected {
-  width: 40%;
-  margin: 0 auto;
-  height: 200px;
-  top: 100px;
+    width: 40%;
+    margin: 0 auto;
+    height: 200px;
+    top: 100px;
 }
+
 .stay-connected h4,
 h2 {
-  text-align: center;
+    text-align: center;
 }
-.stay-connected h4 {
-  font-family: Bebas Neue;
-  font-size: 24px;
-  line-height: 24px;
-  font-weight: 700;
-  margin: 0 auto;
-  color: #696871;
-}
-.stay-connected h2 {
-  font-family: Roboto;
-  font-size: 36px;
-  line-height: 42px;
-  font-weight: 700;
-  margin: 0;
-  color: #363958;
-}
-.stay-connected img {
-  width: 40px;
-  height: 40px;
-  padding: 5px 10px;
-}
-.icons {
-  width: 200px;
 
-  margin: 15px auto;
+.stay-connected h4 {
+    font-family: Bebas Neue;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0 auto;
+    color: #696871;
+}
+
+.stay-connected h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    margin: 0;
+    color: #363958;
+}
+
+.stay-connected img {
+    width: 40px;
+    height: 40px;
+    padding: 5px 10px;
+}
+
+.icons {
+    width: 200px;
+    margin: 15px auto;
 }
